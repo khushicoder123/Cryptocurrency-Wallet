@@ -4,7 +4,7 @@ import pandas as pd
 from keras.models import load_model
 import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
-data = pd.read_csv(r"C:\Users\HP\Desktop\webpage\bitcoin_ticker.csv")
+data = pd.read_csv(r"bitcoin_ticker1.csv")
 
 st.title('Crypto Prediction')
 user_input= st.text_input('Enter bitcoin ticker','btc_usd')
